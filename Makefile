@@ -12,7 +12,7 @@ DEST	= $(AKAROS)/kern/kfs/bin
 # 
 CC=x86_64-ucb-akaros-gcc
 AR=x86_64-ucb-akaros-ar
-ALL=vmexit xmm
+ALL=vmexit xmm vmnest
 all: $(ALL)
 	scp $(ALL) skynet:
 
